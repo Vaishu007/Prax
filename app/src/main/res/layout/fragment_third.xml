@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Third">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Educational Details"
+            android:layout_marginTop="5dp"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="@color/purple_500"
+            android:padding="5dp"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/clgname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/edt"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:inputType="textPersonName"
+            android:hint="College name"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/clglocation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Location eg. Ahmedabad"
+            android:background="@drawable/edt"
+            android:layout_margin="10dp"
+            android:textSize="18dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+            <Spinner
+                android:id="@+id/branch"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textColor="#d3d3d3"
+                android:background="@drawable/edt"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"/>
+            <Spinner
+                android:id="@+id/sem"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/edt"
+                android:textColor="#D3D3D3"
+                android:padding="10dp"
+                android:layout_weight="1.5"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

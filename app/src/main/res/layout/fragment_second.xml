@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Second">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Details"
+            android:layout_marginTop="5dp"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="@color/purple_500"
+            android:padding="5dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:weightSum="2">
+
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:inputType="text"
+                android:id="@+id/hno"
+                android:background="@drawable/edt"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_weight="0.5"
+                android:hint="House no."
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+            <EditText
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:inputType="text"
+                android:id="@+id/hname"
+                android:background="@drawable/edt"
+                android:textSize="18sp"
+                android:layout_margin="5dp"
+                android:layout_weight="1.5"
+                android:hint="Flat,Building,Company,Apartment"
+                android:textColor="@color/black"
+                android:padding="10dp"/>
+
+
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="50dp"
+            android:background="@drawable/edt"
+            android:layout_margin="10dp"
+            android:id="@+id/sname"
+            android:textSize="18dp"
+            android:hint="Area,Street,Sector,Village"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:background="@drawable/edt"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:id="@+id/lname"
+            android:hint="Landmark  E.g. near apollo hospital"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:layout_height="50dp"
+            android:background="@drawable/edt"
+            android:layout_margin="10dp"
+            android:id="@+id/tname"
+            android:textSize="18dp"
+            android:hint="Town/City"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:background="@drawable/edt"
+            android:layout_margin="10dp"
+            android:textSize="18sp"
+            android:hint="Pincode"
+            android:id="@+id/pincode"
+            android:maxLength="6"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

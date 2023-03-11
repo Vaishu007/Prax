@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contactus">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:orientation="vertical"
+                android:background="@color/purple_500">
+
+
+                <ImageView
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/contactus"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:weightSum="2"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/purple_500"
+                            android:src="@drawable/email"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginRight="15dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="praxwere@gmail.com"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="20dp"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:paddingStart="30dp">
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@color/purple_500"
+                            android:src="@drawable/ic_baseline_local_phone_24"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="+91 - 90163 95600"
+                            android:textColor="@color/white"
+                            android:layout_marginStart="20dp"/>
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center">
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/purple_500"
+                        android:src="@drawable/location"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="602, Kaivanna Complex Nr.\nCentral Mall, Panchvati,\nAhmedabad-380006"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="20dp"/>
+
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_width="330dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:background="#A7A4A4"
+                android:layout_marginTop="160dp"
+                app:cardCornerRadius="10dp"
+                android:elevation="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <com.hsalf.smilerating.SmileRating
+                        android:id="@+id/smile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="20dp"
+                        android:focusableInTouchMode="true"
+                        android:outlineAmbientShadowColor="#76FF03"
+                        android:outlineSpotShadowColor="@color/purple_200"
+                        app:angryColor="#Ff0000"
+                        app:drawingColor="@color/black"
+                        app:normalColor="#F6DA48"
+                        app:placeHolderBackgroundColor="#A8A699"
+                        app:placeHolderSmileColor="@color/white"
+                        app:textNonSelectionColor="#ffb600"
+                        app:textSelectionColor="#ff9800" />
+
+                    <EditText
+                        android:id="@+id/feedback"
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:background="#efefef"
+                        android:elevation="10dp"
+                        android:padding="5dp"
+                        android:ems="10"
+                        android:gravity="start|top"
+                        android:layout_gravity="center"
+                        android:hint="Leave Comment"
+                        android:inputType="textMultiLine" />
+
+                    <ImageButton
+                        android:id="@+id/contactbtn"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:src="@drawable/send"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:background= "@drawable/btn1"/>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </FrameLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

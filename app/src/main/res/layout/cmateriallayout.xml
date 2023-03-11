@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="10dp"
+            android:backgroundTint="@color/purple_500"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:id="@+id/cv"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/c_chno"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ch_no"
+                    android:layout_margin="5dp"
+                    android:padding="3dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+
+                <TextView
+                    android:id="@+id/c_chname"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="ch_Name"
+                    android:layout_margin="5dp"
+                    android:padding="3dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+                <TextView
+                    android:id="@+id/c_name"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name"
+                    android:layout_margin="5dp"
+                    android:padding="3dp"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"/>
+
+
+
+                <ImageButton
+                    android:id="@+id/c_download"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@color/purple_500"
+                   android:src="@drawable/downloadwhite"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

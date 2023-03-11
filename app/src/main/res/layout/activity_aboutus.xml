@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aboutus">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:layout_margin="30dp"
+                android:src="@drawable/praxware"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ABOUT US"
+                    android:layout_margin="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/purple_700" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:textAlignment="gravity"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/black"
+                    android:text="   Praxware Technologies is one of the well-known It Development, Training and Placement Service provider. It offers variety of services including web and Mobile Development, Corporate Training and Placement Services with quality assurance. We provide creative solutions that not only cater to clients current but future needs as well. We are always committed to establishing long-term relationship with our esteem Clients and Business Partners. Compelled to have an in-depth understanding of our clients’ needs and concerns, we provide total Business Solutions with an uncompromising level of excellence and integrity.\n\n
+
+Praxware Technologies was established in February 2015 with the Aim to provide state-of-art products and innovative services in the field of Information Technology. At Praxware Technologies, we have the most experienced and dedicated developers and programmers who are always in accord with the fast growing technological orbit. We have designed and implemented a number of path breaking solutions that are user centric and target oriented."/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nABOUT DIRECTORS"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/purple_700"
+                    android:textSize="18dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/hitesh"
+
+                        android:layout_margin="10dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="15dp"
+                            android:text="Hitesh Kachhela"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="13dp"
+                            android:text="Ceo"
+                            android:textColor="@color/black"/>
+
+
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="\nWHAT WE ARE OFFERS?"
+                    android:layout_margin="5dp"
+                    android:textColor="@color/purple_700"
+                    android:textSize="18dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="25dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@drawable/bullete"
+                        android:drawablePadding="5dp"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:text="Complete IT Solution"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:drawableLeft="@drawable/bullete"
+                        android:drawablePadding="5dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Corporate Training"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:drawableLeft="@drawable/bullete"
+                        android:drawablePadding="5dp"
+                        android:text="Placement Services"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:textColor="@color/black"
+                        android:drawableLeft="@drawable/bullete"
+                        android:drawablePadding="5dp"
+                        android:text="Digital marketing"/>
+
+                </LinearLayout>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Profile"
+        android:id="@+id/profile"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/person"/>
+
+    <!-- action button for refresh -->
+    <item android:title="About us"
+        android:id="@+id/aboutus"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+       />
+
+    <item android:title="Contact us"
+        android:id="@+id/contactus"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+
+    <!-- action button for copy -->
+    <item android:title="Help"
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:title="PDF"
+        android:id="@+id/upload"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+    <item android:title="Log-out"
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        />
+</menu>

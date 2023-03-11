@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".C_sql">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/sqlname"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="What is SQL?"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/opensansbold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bullete"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/sanstwo"
+            android:text="SQL stands for Structured Query Language"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/bullete"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/sanstwo"
+            android:text="SQL lets you access and manipulate databases"
+            android:textSize="16sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/sanstwo"
+            android:drawableLeft="@drawable/bullete"
+            android:text="SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What Can SQL do?"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/opensansbold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="SQL can execute queries against a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="SQL can retrieve data from a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:drawableLeft="@drawable/bullete"
+                android:text="SQL can insert records in a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="SQL can update records in a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="SQL can delete records from a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:drawableLeft="@drawable/bullete"
+                android:text="SQL can create new databases"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="SQL can create new tables in a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="SQL can create stored procedures in a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:drawableLeft="@drawable/bullete"
+                android:text="SQL can create views in a database"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:drawableLeft="@drawable/bullete"
+                android:text="SQL can set permissions on tables, procedures, and views"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Using SQL in Your Web Site"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/opensansbold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="An RDBMS database program (i.e. MS Access, SQL Server, MySQL)"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/bullete"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:text="To use a server-side scripting language, like PHP or ASP"
+                android:textSize="16sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/sanstwo"
+                android:drawableLeft="@drawable/bullete"
+                android:text="To use SQL to get the data you want"
+                android:textSize="16sp"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sanstwo"
+                android:text="View Details"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
+
+
+            <ImageButton
+                android:id="@+id/btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/east"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
