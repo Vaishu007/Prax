@@ -83,8 +83,6 @@ private static final Pattern PASSWORD_PATTERN =
             ed.putBoolean("four",false);
             ed.apply();
 
-            repassword.setError("Password is not Matched");
-            repassword.setText("");
 
         new Handler().postDelayed(new Runnable() {
 //
