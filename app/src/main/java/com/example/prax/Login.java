@@ -87,7 +87,7 @@ public class Login extends AppCompatActivity {
 
                             }
 //
-                            else if(!em.equals(email)){
+                            else if(!em.matches(email)){
                                 e.setError("email is wrong");
                             }
                             else{
