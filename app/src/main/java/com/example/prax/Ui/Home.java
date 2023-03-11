@@ -55,13 +55,18 @@ public class Home extends Fragment {
         });
 
 
+//        youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
+//            @Override
+//            public void onReady(@NonNull YouTubePlayer youTubePlayer) {
+//                youTubePlayer.loadVideo("phWxA89Dy94", 0);
+//            }
+//        });
         youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
             @Override
             public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                youTubePlayer.loadVideo("phWxA89Dy94", 0);
+                youTubePlayer.cueVideo("phWxA89Dy94", 0);
             }
         });
-
         return v;
     }
 }
